@@ -22,7 +22,8 @@ public class FlightGraph {
     private String debarkCountry;
 
    
-    public FlightGraph(String fn,String fd,String emb,String deb,String emC,String dbC){
+    public FlightGraph(Long mId,String fn,String fd,String emb,String deb,String emC,String dbC){
+    	this.mariaId=mId;
     	this.flightNumber=fn;
     	this.flightDate=fd;
     	this.embarkation=emb;

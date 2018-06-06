@@ -13,7 +13,8 @@ public class PassengerGraph {
 
 	}
 
-	public PassengerGraph(String fName, String lName, String gender, String dob) {
+	public PassengerGraph(Long id,String fName, String lName, String gender, String dob) {
+		this.mariaId=id;
 		this.firstName = fName;
 		this.lastName = lName;
 		this.gender = gender;
